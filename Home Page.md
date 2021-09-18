@@ -1,8 +1,7 @@
  <!DOCTYPE html>
  <html lang="en">
- <body>
+ <head>
 <title>My Profile</title>
-  <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial scale=1">
  <style>
@@ -56,6 +55,7 @@ footer{
 }
  </style>
   </head>
+ <body>
  <header>
    <h2>My Profile</h2>
  </header>
