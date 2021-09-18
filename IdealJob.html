@@ -1,43 +1,103 @@
  <!DOCTYPE html>
  <html lang="en">
+  <head>
+<title>My Profile</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial scale=1">
+ <style>
+ * {
+  box-sizing: border-box;
+}
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: #195219;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+article{
+  float:left;
+  padding: 30px;
+  width:70%;
+  background-color: grey;
+  height:inherit;
+}
+nav{
+  float: left;
+  width: 30%;
+  height:inherit;
+  background-color: #ACC8E1 ;
+  padding: 30px;
+}
+nav ul{
+  list-style-type: none;
+  padding: 5px;
+}
+section::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+footer{
+  background-color: black;
+  padding:10px;
+  text-align: justify;
+  color:white;
+}
+@media(max-width:600px){
+  nav,article{
+    width:100%;
+    height:auto;
+  }
+}
+ </style>
+  </head>
  <body>
 
  <header>
    <h2>Ideal Job</h2>
  </header>
 
+<section>
+ <nav>
+  <ul>
+   <li>
+     <a href="HomePage.html">
+       Home Page
+     </a>
+   </li>
+   <li>
+     <a href="PersonalInformation.html">
+       Personal Information
+     </a>
+   </li>
+   <li>
+     <a href="InterestinIt.html">
+       Interest in IT
+     </a>
+   </li>
+   <li>
+     <a href="IdealJob.html">
+       Ideal Job
+     </a>
+   </li>
+   <li>
+     <a href="PersonalProfile.html">
+       Personal Profile
+     </a>
+   </li>
+   <li>
+     <a href="ProjectIdea.html">
+       Project Idea
+     </a>
+   </li>
+  </ul>
+ </nav>
 
- <li>
-   <a href="HomePage.html">
-     Home Page
-   </a>
- </li>
- <li>
-   <a href="PersonalInformation.html">
-     Personal Information
-   </a>
- </li>
- <li>
-   <a href="InterestinIt.html">
-     Interest in IT
-   </a>
- </li>
- <li>
-   <a href="IdealJob.html">
-     Ideal Job
-   </a>
- </li>
- <li>
-   <a href="PersonalProfile.html">
-     Personal Profile
-   </a>
- </li>
- <li>
-   <a href="ProjectIdea.html">
-     Project Idea
-   </a>
- </li>
-
+ <article>
      <h1>Ideal Job</h1>
      <img src="images/Picture1.png" alt="Screenshot of job on Seek">
       <h3>Description of position</h3>
